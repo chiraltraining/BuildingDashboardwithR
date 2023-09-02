@@ -1,0 +1,65 @@
+---
+title: "FAQs - Public Health Insights: Clinical Reporting Using {gtsummary}"
+subtitle: ""
+editor: source
+---
+
+```{r}
+#| echo: false
+#| results: false
+#| message: false
+#| warning: false
+library(dplyr)
+library(gtsummary)
+
+theme_gtsummary_compact()
+```
+
+::: {.callout-note collapse=true}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+
+
+1.  **Q:**  Who is this workshop designed for?
+
+>  This workshop is tailored for public health professionals, researchers, analysts, and anyone interested in effectively utilizing the {gtsummary} package for clinical reporting to support evidence-based decision-making in public health.
+
+2.  **Q:** Is this workshop suitable for beginners in public health?
+
+>  Yes, the workshop caters to both beginners and those with some experience in public health analysis. We cover foundational concepts and offer advanced insights for those seeking to enhance their skills.
+
+3.  **Q:** Will the workshop be held in-person or virtually?
+
+>  This workshop will be conducted virtually. Participants will receive detailed instructions on how to join the session.
+
+4.  **Q:** What software/tools are required for the workshop?
+
+> Participants will need a laptop with internet access and R and RStudio installed. We'll provide guidance on setting up these tools if needed.
+
+5. **Q:** Are there any prerequisites for attending the workshop?
+
+> No specific prerequisites are required, but basic familiarity with public health concepts and an interest in data analysis will be beneficial.
+
+6. **Q:** Will I receive any materials for the workshop?
+
+>Yes, participants will receive workshop materials, including presentation slides and example datasets, prior to the workshop.
+
+7.  **Q:** Is there a fee to attend the workshop?
+
+> Yes, there is a registration fee to attend the workshop. Details about the fee and payment methods can be found on the registration page.
+
+8.  **Q:** Can I ask questions during the workshop?
+
+> Absolutely! We encourage active participation. There will be dedicated Q&A segments where you can ask questions and engage with the instructors.
+
+
+9. **Q:** Will the workshop be recorded for later viewing?
+
+> Yes, the workshop sessions will be recorded, and registered participants will have access to the recordings for a limited time after the workshop concludes.
+
+
+10. **Q:** Will I receive a certificate upon completion?
+
+> Yes, participants who complete the workshop will receive a certificate of participation, which can be a valuable addition to your professional portfolio.

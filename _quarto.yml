@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: docs 
+  render:
+    - "*.qmd"
+    - "!exercises/exercises.Rmd"
+    - "!slides/*.qmd"
+    
+website:
+  page-navigation: true
+  title: "Building Dashboard with R"
+  description: "Homepage for Building Dashboard with R"
+  site-url: "https://chiraltraining.github.io/BuildingDashboardwithR/"
+  favicon: "images/logo.png"
+  
+  repo-url: https://github.com/chiraltraining/BuildingDashboardwithR
+  repo-actions: [edit, issue]
+
+  open-graph: true
+  twitter-card:
+    creator: "@hossainlab"
+    image: "/images/banner.jpg"
+
+  page-footer:
+    left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: "&copy; Copyright 2023, Md. Jubayer Hossain"
+    background: "#1C8D73"
+  sidebar:
+    background: "#1C8D73"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/chiraltraining/
+        text: GitHub
+      - icon: facebook
+        href: https://www.facebook.com/chiralbd.org
+        text: Facebook
+      - icon: twitter
+        href: https://twitter.com/chiralbd
+        text: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/company/chiral-bangladesh/mycompany/?viewAsMember=true
+        text: LinkedIn
+    style: docked
+    contents:
+     - href: index.qmd
+       text: Home
+     - href: material.qmd
+     - href: q-and-a.qmd
+       text: Workshop Q & A
+     - href: setup.qmd
+       text: Setup
+     - href: license.qmd
+
+format:
+  html:
+    theme: [yeti, theme.scss]
+    toc: true
+    code-line-numbers: true
+    code-link: true 
+    code-copy: true
+    code-overflow: scroll
+    mainfont: "Atkinson Hyperlegible"
+    highlight-style: a11y
+
+editor: source
+
