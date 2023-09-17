@@ -48,8 +48,10 @@ website:
      - href: index.qmd
        text: Home
      - href: material.qmd
+     - href: projects.qmd
+       text: Projects
      - href: q-and-a.qmd
-       text: Workshop Q & A
+       text: FAQs
      - href: setup.qmd
        text: Setup
      - href: license.qmd

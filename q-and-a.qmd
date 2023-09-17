@@ -1,5 +1,5 @@
 ---
-title: "FAQs - Public Health Insights: Clinical Reporting Using {gtsummary}"
+title: "FAQs - Building Dashboard with R"
 subtitle: ""
 editor: source
 ---
@@ -14,12 +14,6 @@ library(gtsummary)
 
 theme_gtsummary_compact()
 ```
-
-::: {.callout-note collapse=true}
-Note that there are five types of callouts, including:
-`note`, `warning`, `important`, `tip`, and `caution`.
-:::
-
 
 
 1.  **Q:**  Who is this workshop designed for?
